@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SD_api/SD_api.iml" filepath="$PROJECT_DIR$/SD_api/SD_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SD_domain/SD_domain.iml" filepath="$PROJECT_DIR$/SD_domain/SD_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SD_mapper/SD_mapper.iml" filepath="$PROJECT_DIR$/SD_mapper/SD_mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SD_platform.iml" filepath="$PROJECT_DIR$/SD_platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SD_service/SD_service.iml" filepath="$PROJECT_DIR$/SD_service/SD_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SD_webapp/SD_webapp.iml" filepath="$PROJECT_DIR$/SD_webapp/SD_webapp.iml" />
+    </modules>
+  </component>
+</project>

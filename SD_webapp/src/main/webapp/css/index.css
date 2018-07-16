@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-07-16 15:31:01
+ * @version $Id$
+ */
+html{
+	font:12px '微软雅黑';
+}
+a{
+	color: #000;
+}
+.login{
+	width: 450px;
+	height: 350px;
+	margin: 200px auto;
+	/*border: 1px solid #D8D8D8;
+	box-shadow: 0px 0px 10px 1px #aaa;*/
+}
+.login_head{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.login_head_logo{
+	background: url(../image/绿盟logo.jpg);
+	width: 200px;
+	height: 80px;
+	margin: 0 auto;
+}
+.login_head_font{
+	font-size: 24px;
+	font-weight:bold;
+	width: 220px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+}
+.login_content{
+
+}
+.login_content_first{
+	width: 300px;
+	height: 35px;
+	margin: 10px auto;
+	border: 1px solid rgba(74,74,74,0.25);
+	font-size: 18px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: rgb(250,255,189);
+}
+.login_content_second{
+	width: 300px;
+	height: 40px;
+	background-color: #4A90E2;
+	border: 1px solid #4A90E2;
+	font-size: 18px;
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	border-radius: 5px 5px 5px 5px;
+	margin-top: 10px;
+}
