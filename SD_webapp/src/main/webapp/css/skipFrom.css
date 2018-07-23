@@ -1,0 +1,271 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-size: 100% ;
+}
+
+#pan{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	display: none;
+}
+
+#showForm{
+	position: absolute;
+	width: 550px;
+	height: 350px;
+	left: 50%;
+	margin-left: -340px;
+	z-index: 10;
+	top: 130px;
+	background-color: white;
+}
+#modiForm{
+	position: absolute;
+	width: 550px;
+	height: 333px;
+	left: 50%;
+	margin-left: -340px;
+	z-index: 10;
+	top: 130px;
+	background-color: white;
+	border-radius: 8px;
+}
+/**/
+
+
+#showForm form{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#modiForm form{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+#showTable{
+	display: none;
+
+}
+
+#modiTable{
+	display: none;
+
+}
+
+#showForm form p {
+  font-size: 20px;
+  padding: 10px 2px 2px;
+  border-radius: .25em;
+}
+#modiForm form p {
+	font-size: 20px;
+	padding: 10px 2px 2px;
+	border-radius: .25em;
+}
+
+#dropForm{
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	left: 50%;
+	margin-left: -340px;
+	z-index: 10;
+	top: 130px;
+	background-color: white;
+	border-radius: 8px;
+}
+
+#dropForm form{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#dropTable{
+	display: none;
+}
+
+#dropForm form p {
+	position: absolute;
+	font-size: 20px;
+	font-weight:600;
+	line-height: 140px;
+	left: 110px;
+	color: grey;
+	letter-spacing: 10px;
+	border-radius: .25em;
+	padding: 10px 2px 2px;
+	border-radius: .25em;
+}
+
+#dropForm form p span {
+	font-size: 20px;
+	padding: 10px 2px 2px;
+	border-radius: .25em;
+	transition: all .100s;
+}
+
+#dropForm form p input {
+	font-size: 20px;
+	padding: 5px 2px;
+	border-radius: 5px;
+	width: 260px;
+	height: 27px;
+}
+
+#dropForm form span{
+	margin: 30px 10px 30px 80px;
+}
+
+#dropForm form .confirmbtn{
+	width: 200px;
+	height: 50px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	background-color: #fc7169;
+	border-radius: 0 0 0 8px;
+	cursor: pointer;
+}
+
+#dropForm form .canclebtn{
+	width: 200px;
+	height: 50px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	background-color: #b6bece;
+	border-radius: 0 0 8px 0;
+	cursor: pointer;
+}
+
+#dropForm form div{
+	position: absolute;
+	bottom: 0px;
+}
+
+#dropForm form .confirmbtn:hover{
+	background-color: orangered;
+}
+#dropForm form .canclebtn:hover{
+	background-color: dimgray;
+}
+
+
+#showForm form p span {
+  font-size: 20px;
+  padding: 10px 2px 2px;
+  border-radius: .25em;
+  transition: all .100s;
+}
+#modiForm form p span {
+	font-size: 20px;
+	padding: 10px 2px 2px;
+	border-radius: .25em;
+	transition: all .100s;
+}
+#showForm form p input {
+  border: 2px solid black;
+  font-size: 20px;
+  padding: 5px 2px;
+  border-radius: 5px;
+  width: 247px;
+  height: 27px;
+}
+
+#showForm form p select{
+	border: 2px solid black;
+	font-size: 15px;
+	padding: 5px 2px;
+	border-radius: 5px;
+	width: 247px;
+	height: 40px;
+}
+
+#modiForm form p input{
+	border: 2px solid black;
+	font-size: 20px;
+	padding: 5px 2px;
+	border-radius: 5px;
+	width: 260px;
+	height: 27px;
+}
+
+
+#modiForm form p select{
+	border: 2px solid black;
+	font-size: 15px;
+	padding: 5px 2px;
+	border-radius: 5px;
+	width: 247px;
+	height: 40px;
+}
+
+#showForm form span{
+	margin: 50px 10px 30px 80px;
+}
+#modiForm form span{
+	margin: 50px 10px 30px 80px;
+}
+#showForm form .confirmbtn{
+	width: 275px;
+	height: 60px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	background-color: #fc7169;
+	border-radius: 0 0 0 8px;
+	cursor: pointer;
+}
+#modiForm form .confirmbtn{
+	width: 275px;
+	height: 50px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	background-color: #fc7169;
+	border-radius: 0 0 0 8px;
+	cursor: pointer;
+}
+#showForm form .canclebtn{
+	width: 275px;
+	height: 60px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	background-color: #b6bece;
+	border-radius: 0 0 8px 0;
+	cursor: pointer;
+}
+#modiForm form .canclebtn{
+	width: 275px;
+	height: 50px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	background-color: #b6bece;
+	border-radius: 0 0 8px 0;
+	cursor: pointer;
+}
+#modiForm form div{
+	position: absolute;
+	bottom: 0px;
+}
+#modiForm form .confirmbtn:hover{
+	background-color: orangered;
+}
+#modiForm form .canclebtn:hover{
+	background-color: dimgray;
+}

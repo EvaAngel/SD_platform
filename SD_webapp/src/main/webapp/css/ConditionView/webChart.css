@@ -1,0 +1,333 @@
+/*新增和搜索样式*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Show{
+    width: 99.5%;
+    margin: auto;
+    height: 700px;
+    background-color: white;
+}
+
+.box_projectname{
+   width: 300px;
+   height: 50px;
+   margin-left: 20px;
+   margin-top: 40px;
+}
+.box_projectname_l{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.box_projectname_r{
+    width: 200px;
+    height: 25px
+}
+#chartBackground{
+    margin: auto;
+    width: 95%;
+    height: 100%;
+}
+#chart1{
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 170px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 0 rgba(20,22,23,.32);
+}
+.chart1_l{
+  width: 63px;
+  height: 59px;
+  background: url(../../image/java.png);
+  float: left;
+  margin-top: 60px;
+  margin-left: 5px;
+}
+
+.chart1_r{
+  width: 170px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 60px;
+}
+.chart1_r_t{
+    font-weight: bold;
+    font-size: 15px;
+}
+.chart1_r_b{
+    font-size: 12px;
+    margin-top: 10px;
+}
+#chart2{
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 170px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 0 rgba(20,22,23,.32);
+}
+.chart2_l{
+  width: 63px;
+  height: 59px;
+  background: url(../../image/nodejs.png);
+  float: left;
+  margin-top: 60px;
+  margin-left: 5px;
+}
+
+.chart2_r{
+  width: 200px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 60px;
+}
+.chart2_r_t{
+    font-weight: bold;
+    font-size: 15px;
+}
+.chart2_r_b{
+    font-size: 12px;
+    margin-top: 10px;
+}
+#chart3{
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 170px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 0 rgba(20,22,23,.32);
+}
+.chart3_l{
+  width: 63px;
+  height: 59px;
+  background: url(../../image/php.png);
+  float: left;
+  margin-top: 60px;
+  margin-left: 5px;
+}
+
+.chart3_r{
+  width: 170px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 60px;
+}
+.chart3_r_t{
+    font-weight: bold;
+    font-size: 15px;
+}
+.chart3_r_b{
+    font-size: 12px;
+    margin-top: 10px;
+}
+#chart4{
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 170px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 0 rgba(20,22,23,.32);
+}
+.chart4_l{
+  width: 63px;
+  height: 59px;
+  background: url(../../image/python.png);
+  float: left;
+  margin-top: 60px;
+  margin-left: 5px;
+}
+
+.chart4_r{
+  width: 170px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 60px;
+}
+.chart4_r_t{
+    font-weight: bold;
+    font-size: 15px;
+}
+.chart4_r_b{
+    font-size: 12px;
+    margin-top: 10px;
+}
+#chart5{
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 170px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 0 rgba(20,22,23,.32);
+}
+.chart5_l{
+  width: 63px;
+  height: 59px;
+  background: url(../../image/golang.png);
+  float: left;
+  margin-top: 60px;
+  margin-left: 5px;
+}
+
+.chart5_r{
+  width: 170px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 60px;
+}
+.chart5_r_t{
+    font-weight: bold;
+    font-size: 15px;
+}
+.chart5_r_b{
+    font-size: 12px;
+    margin-top: 10px;
+}
+#chart6{
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 170px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 0 rgba(20,22,23,.32);
+}
+.chart6_l{
+  width: 63px;
+  height: 59px;
+  background: url(../../image/packer.png);
+  float: left;
+  margin-top: 60px;
+  margin-left: 5px;
+}
+
+.chart6_r{
+  width: 170px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 60px;
+}
+.chart6_r_t{
+    font-weight: bold;
+    font-size: 15px;
+}
+.chart6_r_b{
+    font-size: 12px;
+    margin-top: 10px;
+}
+#chart7{
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 170px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 0 rgba(20,22,23,.32);
+}
+.chart7_l{
+  width: 63px;
+  height: 59px;
+  background: url(../../image/free.png);
+  float: left;
+  margin-top: 60px;
+  margin-left: 5px;
+}
+
+.chart7_r{
+  width: 170px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 60px;
+}
+.chart7_r_t{
+    font-weight: bold;
+    font-size: 15px;
+}
+.chart7_r_b{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.footer{
+  width: 1080px;
+  height: 54px;
+  border-top: 1px solid #D9D9D9;
+  margin-bottom: 100px;
+}
+.buttontext{
+  width: 300px;
+  height: 40px;
+  float: right;
+}
+.buttontext_button1{
+  width: 70px;
+  height: 32px;
+  background-color:#eaedf1;
+  margin-right: 15px;
+  float: left;
+  text-align: center;
+}
+.buttontext_button1_register{
+  width: 70px;
+  height: 32px;
+  background-color:#eaedf1;
+  margin-right: 15px;
+  float: left;
+  text-align: center;
+}
+.buttontext_button1 a{
+  text-decoration: none;
+  cursor: not-allowed;
+  font-size: 12px;
+  color: black;
+  line-height: 32px;
+  color: #9B9EA0;
+}
+.buttontext_button1_register a{
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  line-height: 32px;
+}
+.buttontext_button2{
+  width: 70px;
+  height: 32px;
+  background-color:#eaedf1;
+  margin-right: 15px;
+  float: left;
+  text-align: center;
+}
+.buttontext_button2 a{
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  line-height: 32px;
+}
+.buttontext_button3{
+  width: 70px;
+  height: 32px;
+  background-color:#eaedf1;
+  margin-right: 15px;
+  float: left;
+  text-align: center;
+}
+.buttontext_button3 a{
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  line-height: 32px;
+}

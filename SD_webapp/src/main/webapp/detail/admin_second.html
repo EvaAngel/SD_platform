@@ -1,0 +1,106 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../css/index.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/cssReset.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link href="../css/location.css" rel="stylesheet">
+    <link href="../css/ConditionView/webChart.css" rel="stylesheet">
+</head>
+<body>
+<div class="box">
+    <div class="locational">
+        <p class="locationalName">代码构建配置</p>
+    </div>
+    <div class="second_project_name">
+        <div class="second_project_name_l fl" >
+            项目名称
+        </div>
+        <div class="second_project_name_r fr">
+            222
+            <!-- <input name="name" id="name" data-valid="false" type="text" tabindex="0" class="read-only-input" readonly> -->
+        </div>
+    </div>
+    <div class="cangku" >
+        <div class="second_structure_name">
+            Repositories
+        </div>
+        <div class="second_structure_content">
+            <div class="second_structure_content_1">
+                <div class="second_structure_content_1_l fl">
+                    仓库地址
+                </div>
+                <div class="second_structure_content_1_r fr">
+                    <input type="text" class="setting-input" value="">
+                </div>
+            </div>
+            <div class="second_structure_content_2">
+                <div class="second_structure_content_2_l fl">
+                    仓库证书
+                </div>
+                <div class="second_structure_content_2_r fr">
+                    <input type="text" value="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="build">
+        <div class="second_structure_name">
+            Branches to build
+        </div>
+        <div class="second_structure_content">
+            <div class="second_structure_content_3">
+                <div class="second_structure_content_3_l fl">
+                    分支
+                </div>
+                <div class="second_structure_content_3_r fr">
+                    <input default="*/master" type="text" value="*/master">
+                </div>
+            </div>
+        </div>    
+    </div>
+    <hr>
+    <div class="construction">
+        <div class="second_structure_name">
+            构建
+        </div>
+        <div class="second_structure_content">
+            <div class="second_structure_content_4">
+                <div class="second_structure_content_4_l fl">
+                    构建命令
+                </div>
+                <div class="second_structure_content_4_r fr">
+                    <textarea id="textarea1">mvn package -B -DskipTests</textarea>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <hr>
+    <div class="testing">
+        <div class="second_structure_name">
+            测试
+        </div>
+        <div class="second_structure_content">
+            <div class="second_structure_content_5">
+                <div class="second_structure_content_5_l fl">
+                    测试指令
+                </div>
+                <div class="second_structure_content_5_r fr">
+                    <textarea id="textarea2">mvn test</textarea>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+    <br>
+    <div class="buttontext">
+    <div class="buttontext_button1_register"><a href="admin_first.html">上一步</a></div>
+    <div class="buttontext_button2"><a href="admin_third.html">下一步</a></div>
+    <div class="buttontext_button3"><a href="admin_first.html">取消</a></div>
+    </div>
+</div>
+</div>
+</body>
+</html>

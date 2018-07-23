@@ -20,7 +20,7 @@
         <div class="login_head_font">安全开发自动化平台</div>
     </div>
     <div class="login_content">
-        <form class="" action="/isLogin.do">
+        <form class="" action="/isLogin.do" method="post">
             <table align="center">
                 <tr>
                     <td><input class="login_content_first" type="text" name="username"></td>

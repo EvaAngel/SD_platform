@@ -14,7 +14,7 @@ public class UserController {
     @Autowired
     private UserApi userApi;
 
-    @RequestMapping("/isLogin.do")
+    @RequestMapping("isLogin.do")
     public void isLogin(HttpServletRequest request, HttpServletResponse response, HttpSession session) throws Exception
     {
         String username=request.getParameter("username");
@@ -22,7 +22,7 @@ public class UserController {
         boolean bool=userApi.isLogin(username,password);
         if(bool==true)
         {
-           request.getRequestDispatcher(request.getContextPath()+"main/main.jsp").forward(request,response);
+           request.getRequestDispatcher(request.getContextPath()+"Manager.jsp").forward(request,response);
         }
         else
         {
