@@ -22,7 +22,7 @@ function dologin() {
         data: {"username": username,"password":password},
         success: function (data) {
             if(data.loginFlag == "true"){
-                window.location.href='../admin/Manager.jsp';
+                window.location.href='../../main/Manager.jsp';
             }else {
                 alert("用户名或密码错误！");
             }

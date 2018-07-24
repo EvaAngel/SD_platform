@@ -1,3 +1,11 @@
+<%--
+Created by IntelliJ IDEA.
+User: fuxin
+Date: 2018/7/16
+Time: 16:26
+To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -9,7 +17,7 @@
     <link href="../css/ConditionView/webChart.css" rel="stylesheet">
 </head>
 <body>
-<form class="vote" action="" method="post">
+<form class="vote" action="/jenkins.do" method="post">
     <div class="box">
         <div class="locational">
             <p class="locationalName">代码构建配置</p>
@@ -26,7 +34,7 @@
                     </div>
                     <div class="pipeline_structure_content_1_l fl">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <select>
+                        <select name="timequery">
                             <option value="0">5分钟</option>
                             <option value="1">10分钟</option>
                         </select>
@@ -39,7 +47,7 @@
                     </div>
                     <div class="pipeline_structure_content_2_l fl">
                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <select>
+                        <select name="clonestyle">
                             <option value="0">SVN</option>
                             <option value="1">Git</option>
                         </select>
@@ -52,9 +60,9 @@
                     </div>
                     <div class="pipeline_structure_content_3_l fl">
                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <select>
-                            <option value="0">是</option>
-                            <option value="1">否</option>
+                        <select name="dynscan">
+                            <option value="1">是</option>
+                            <option value="0">否</option>
                         </select>
                     </div>
                 </div>
@@ -75,10 +83,10 @@
                     </div>
                     <div class="pipeline_structure_content_4_r fl">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <select>
-                            <option value="0">Findbugs</option>
-                            <option value="1">Sonar默认规则</option>
-                            <option value="2">无</option>
+                        <select name="stascan">
+                            <option value="1">Findbugs</option>
+                            <option value="2">Sonar默认规则</option>
+                            <option value="3">无</option>
                         </select>
                     </div>
                 </div>
@@ -89,9 +97,9 @@
                     </div>
                     <div class="pipeline_tructure_content_5_r fl">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <select>
-                            <option value="0">是</option>
-                            <option value="1">否</option>
+                        <select name="relysecurity">
+                            <option value="1">是</option>
+                            <option value="2">否</option>
                         </select>
                     </div>
                 </div>
@@ -111,7 +119,7 @@
                     </div>
                     <div class="pipeline_structure_content_6_r fl">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <select>
+                        <select name="rsas">
                             <option value="0">无</option>
                             <option value="1">RSAS</option>
                             <option value="2">BVS</option>
@@ -159,8 +167,8 @@
         <!-- <div class="footer">
         <br>
         <div class="buttontext">
-        <div class="buttontext_button2"><a href="admin_fifth.html">提交</a></div>
-        <div class="buttontext_button3"><a href="admin_first.html">取消</a></div>
+        <div class="buttontext_button2"><a href="admin_fifth.jsp">提交</a></div>
+        <div class="buttontext_button3"><a href="admin_first.jsp">取消</a></div>
         </div>
         </div> -->
      </div>

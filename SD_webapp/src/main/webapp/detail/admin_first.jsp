@@ -1,3 +1,11 @@
+<%--
+Created by IntelliJ IDEA.
+User: fuxin
+Date: 2018/7/16
+Time: 16:26
+To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -42,7 +50,7 @@
               <div class="chart2_l">
                    
                </div>
-               <div class="chart2_r">
+               <div class="chart2_r" onclick="chart1(this)">
                    <div class="chart2_r_t">
                        构建一个Pipeline的软件项目
                    </div>
@@ -124,8 +132,8 @@
     <br>
     <div class="buttontext">
     <div class="buttontext_button1"><a>上一步</a></div>
-    <div class="buttontext_button2"><a href="admin_second.html">下一步</a></div>
-    <div class="buttontext_button3"><a href="admin_first.html">取消</a></div>
+    <div class="buttontext_button2"><a href="pipeline.jsp">下一步</a></div>
+    <div class="buttontext_button3"><a href="admin_first.jsp">取消</a></div>
     </div>
 </div>
 </div>
